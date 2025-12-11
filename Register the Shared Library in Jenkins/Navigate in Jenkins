@@ -1,0 +1,15 @@
+Navigate:
+
+Manage Jenkins → Configure System → Global Pipeline Libraries
+
+Add:
+
+Name: my-shared-lib
+
+Default version: main
+
+Retrieval method: Modern SCM
+
+Git URL: <your repo URL>
+
+Set Load implicitly: false (so you load it in Jenkinsfile explicitly).
